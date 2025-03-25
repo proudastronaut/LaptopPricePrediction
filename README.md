@@ -46,4 +46,4 @@
 2. Загрузите scaler: `loaded_scale = joblib.load('scaler.pkl')`
 3. Загрузите LabelEncoder для каждого категориального столбца.
 4. Выполните предобработку новых данных.
-5. Сделайте предсказание: `prediction = loaded_model.predict(new_data_scaled)`
+5. Сделайте прогноз: `prediction = loaded_model.predict(new_data_scaled)`
